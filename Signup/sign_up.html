@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&display=swap" />
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sign_up.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="row">
+          <nav class="navbar fixed-top">
+            <div class="container-fluid">
+            </div>
+          </nav>
+        </div>
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+         <div class="card">
+             <div class="card-header">
+                 <h3 class="text-black text-center">Create account</h3>
+             </div>
+            <div class="card-body">
+              <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="name" class="form-label">Username</label>
+                    <input type="name" class="form-control" id="name" placeholder="Username" name="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd" class="form-label">Password</label>
+                    <input  type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+                </div>
+                  <div class="mb-3">
+                    <label for="number" class="form-label">Mobile No</label>
+                    <input type="number" class="form-control" id="number" placeholder="mobile no" name="number">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="number" placeholder="you@gmail.com" name="email">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">Continue</button><br><br>
+                  <p class="text-center">Already have an Account?
+                    <a href="/Signin/sign_in.html">Sign in</a>
+                    </p>
+                </form>
+            </div>
+              </div>
+              <footer>
+                <p>Copyright © 2022. All rights reserved.</p>
+              </footer>
+          </div>
+      </div>
+  </div>
+   
+</body>
+</html>

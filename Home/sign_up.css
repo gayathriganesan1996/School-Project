@@ -1,0 +1,36 @@
+.row{
+    justify-content: center;
+    margin-top: 20px;
+}
+img{
+    height: 40px;
+    width: 38px;
+    margin-left: 50px;
+}
+body{
+    background: url(img/gettyimages-1146896065-2048x2048.jpg);
+    background-size: cover;  
+
+}
+
+.card{
+    background-color: #ffffff9e;
+}
+span{
+    text-decoration: underline;
+    color: red;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    margin-top: 29px;
+  }
+ button{
+    margin-left: 180px;
+    width: 119px;
+ }
+ .container{
+    margin-top: -50px;
+    margin-bottom: -6px;
+ }

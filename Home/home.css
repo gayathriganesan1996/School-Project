@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "montserrat", sans-serif; */
+    box-sizing: border-box;
+}
+
+img{
+    width: 65px;
+}
+.navbar {
+    height: 77px;
+    background-color: #389762;
+}
+.card{
+    height: 454px;
+}
+li{
+    color: white;
+}
+body{
+    background-color: #38976236;
+}
+.nav-link{
+    color: white;
+ }
+ .container{
+    margin-left: 160px;
+ }
+ .carousel-item img{
+    height: 600px;
+ }
+ /* .card-header img{
+    width: 300px;
+ } */
