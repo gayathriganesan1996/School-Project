@@ -13,8 +13,8 @@
     <title>Signin</title>
 </head>
 <body>
-    <div class="container pt-5">
-      <div class="row">
+    <div class="container">
+      <div class="row my-5">
         <nav class="navbar fixed-top">
           <div class="container-fluid">
           </div>
@@ -31,31 +31,34 @@
                 <div class="mb-3 mt-3">
                   <label for="name" class="form-label">Username</label>
                   <input type="name" class="form-control" id="name" placeholder="Enter username" name="name">
+                  <span class="text-danger small" id="error-name"></span>
                 </div>
                 <div class="mb-3">
                   <label for="pwd" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  <input type="password" class="form-control" id="password" placeholder="Enter password" name="pswd">
+                  <span class="text-danger small" id="error-password"></span>
                 </div>
-                <div class="form-check mb-3">
-                  <label class="form-check-label">
+                <div class="d-flex justify-content-between">
+                  <!-- <label class="form-check-label">
                     <input class="form-check-input" type="checkbox" name="remember"> Remember me 
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                     <span>Forgot Password?</span>      
                   </label>
                 </div>
-                <a  href="home.html"  class="btn btn-primary btn-lg">Sign in</a>
+                <button type="button" class="btn btn-primary btn-lg mt-3" onclick="signinAccount()">Sign in</button>
                 <p class="text-center">Don't have an account?
                   <a href="sign_up.html">Sign up</a>
                   </p>
               </form>
           </div>
             </div>
-            <footer>
-              <p>Copyright © 2022. All rights reserved.</p>
-            </footer>
+            
         </div>
     </div>
 </div>
-
+<footer class="fixed-bottom">
+  <p class="text-center pt-2">Copyright © 2022. All rights reserved.</p>
+</footer>
+<script src="sign-in.js"></script>
 </body>
 </html>
